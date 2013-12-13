@@ -11,4 +11,4 @@ Knowhow
 -
 
 
-* Analysis Tools for Bisulfite Sequencing 
+* [Analysis Tools for Bisulfite Sequencing](bisulfiteSeqTools.md)
