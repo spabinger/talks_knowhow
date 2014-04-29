@@ -2,6 +2,9 @@
 
 
 ### Backup script on linux machine
+
+**Important** - `chmod a+x` on backupscript
+
 ```
 #
 # Backup script for stephan
