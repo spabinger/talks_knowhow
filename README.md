@@ -23,4 +23,4 @@ Knowhow
 * [Analysis Tools for Bisulfite Sequencing](bisulfiteSeqTools.md)
 * [Misc information about Denovo Assembly](denovoAssembly.md)
 * [Backup script (using rsync)](backup.md)
-* [Mounting information](server_windows_mounting.md)
+* [Mounting information](server_mounting.md)
