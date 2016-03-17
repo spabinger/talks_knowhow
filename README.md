@@ -24,3 +24,4 @@ Knowhow
 * [Misc information about Denovo Assembly](denovoAssembly.md)
 * [Backup script (using rsync)](backup.md)
 * [Mounting information](server_mounting.md)
+* [Misc + Server](misc_knowhow.md)
