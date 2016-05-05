@@ -25,3 +25,9 @@ Knowhow
 * [Backup script (using rsync)](backup.md)
 * [Mounting information](server_mounting.md)
 * [Misc + Server](misc_knowhow.md)
+ 
+Scripts
+* [Scripts](https://github.com/tadKeys/scripts)
+
+
+
