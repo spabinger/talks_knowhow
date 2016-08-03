@@ -18,6 +18,8 @@ http://www.cyberciti.biz/faq/howto-forcefully-stop-and-kill-lxc-container-on-lin
 **lxc** list: `lxc-ls -f` <br />
 **lxc** shutdown: `lxc-stop --name [container-name] --nokill` <br />
 **lxc** start: `lxc-start --name [container-name] -d`
+**lxc** reboot: `lxc-stop  --name [container-name] -r`
+
 
 
 ### R Stuff
