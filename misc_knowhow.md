@@ -24,3 +24,7 @@ http://www.cyberciti.biz/faq/howto-forcefully-stop-and-kill-lxc-container-on-lin
 
 ### R Stuff
 https://www.datacamp.com/community/tutorials/15-easy-solutions-data-frame-problems-r
+
+
+### Remote desktop connection - add users
+System properties (Systemeigenschaften) -> Remotedesktopusers -> add users
