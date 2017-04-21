@@ -20,6 +20,8 @@ ip link
 
 zfs list
 
+lshw -class network
+
 netstat -tulpen
 
 
@@ -28,7 +30,16 @@ netstat -tulpen
 
 
 
-### Server stuff
+## Switch
+
+#### Dell 5500
+"Although they can work in small EQL (and other iSCSI) SAN networks they should be seen as campus-access switches and not as SAN switches."
+https://en.wikipedia.org/wiki/Dell_PowerConnect#5500_series
+
+
+
+## Virtualization
+
 ##### KVM
 
 **kvm** list machines: `virsh list --all` <br />
