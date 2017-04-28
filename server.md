@@ -1,36 +1,42 @@
-## Server Things
+### :: Network ::
 
-### List all network cards
+#### List all network cards
 lspci | egrep -i --color 'network|ethernet'
 
-### Show all ip addresses
+#### Show all ip addresses
 ip addr show
 
-### Show/manipulate network interfaces
+#### Show/manipulate network interfaces
 cat /etc/network/interfaces
 
-### IPTABLES
+#### IPTABLES
 iptables -S
 iptables -L
 
-
-## Get names of interfaces
+#### Get names of interfaces
 ip link
 
-
-zfs list
-
+#### XXX
 lshw -class network
-
-netstat -tulpen
 
 
 ### Find active internet connections
 netstat -tulpen
 
 
+### :: ZFS ::
 
-## Switch
+#### List all zfs-folders/zfs-volumes
+zfs list
+
+
+
+
+
+
+
+
+### :: Switch ::
 
 #### Dell 5500
 "Although they can work in small EQL (and other iSCSI) SAN networks they should be seen as campus-access switches and not as SAN switches."
