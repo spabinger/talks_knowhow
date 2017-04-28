@@ -34,12 +34,12 @@ netstat -tulpen
 ### :: ZFS ::
 
 #### List all zfs-folders/zfs-volumes
-> zfs list
+``` zfs list ```
 
 
 ### :: Docker
 
-**Running containers**
+#### List Running containers
 ```
 docker ps -a
 ```
