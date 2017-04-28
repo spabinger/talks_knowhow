@@ -39,8 +39,7 @@ iptables -L
 
 
 
-<a name="zfs" />
-
+<a name="zfs" /> <br/>
 ### :: ZFS ::
 
 * List all zfs-folders/zfs-volumes <br/>
@@ -49,10 +48,10 @@ iptables -L
 * Status of zpool <br/>
 ``` zpool status ```
 
-* ZFS Raid levels 
+* ZFS Raid levels <br/>
 ``` http://www.zfsbuild.com/2010/05/26/zfs-raid-levels/ ```
 
-* Improve performance of ZFS
+* Improve performance of ZFS <br/>
 ``` https://icesquare.com/wordpress/how-to-improve-zfs-performance/#section9 ```
 
 
