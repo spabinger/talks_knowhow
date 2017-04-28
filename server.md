@@ -6,27 +6,29 @@
 ### :: Network ::
 
 #### List all network cards
-lspci | egrep -i --color 'network|ethernet'
+``` lspci | egrep -i --color 'network|ethernet' ```
 
 #### Show all ip addresses
-ip addr show
+``` ip addr show ```
 
 #### Show/manipulate network interfaces
-cat /etc/network/interfaces
+``` cat /etc/network/interfaces ```
 
 #### IPTABLES
+``` 
 iptables -S
-iptables -L
+iptables -L 
+```
 
 #### Get names of interfaces
-ip link
+``` ip link ```
 
 #### XXX
-lshw -class network
+``` lshw -class network ```
 
 
 ### Find active internet connections
-netstat -tulpen
+``` netstat -tulpen ```
 
 
 <a name="zfs" />
@@ -37,12 +39,11 @@ netstat -tulpen
 ``` zfs list ```
 
 
-### :: Docker
+### :: Docker ::
 
 #### List Running containers
-```
-docker ps -a
-```
+``` docker ps -a ```
+
 
 <a name="ipmi" />
 
