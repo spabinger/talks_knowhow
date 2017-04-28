@@ -28,7 +28,6 @@ lshw -class network
 netstat -tulpen
 
 <a name="asdf" />
-
 ### :: ZFS ::
 
 #### List all zfs-folders/zfs-volumes
