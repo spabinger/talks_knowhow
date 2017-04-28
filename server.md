@@ -31,12 +31,28 @@ iptables -L
 ``` netstat -tulpen ```
 
 
+### :: Disks ::
+
+#### Display block devices
+``` blkid -o list ```
+
+
+
+
 <a name="zfs" />
 
 ### :: ZFS ::
 
-#### List all zfs-folders/zfs-volumes
+* List all zfs-folders/zfs-volumes
 ``` zfs list ```
+
+zpool status
+
+* ZFS Raid levels http://www.zfsbuild.com/2010/05/26/zfs-raid-levels/
+
+* Improve performance of ZFS
+https://icesquare.com/wordpress/how-to-improve-zfs-performance/#section9
+
 
 
 ### :: Docker ::
