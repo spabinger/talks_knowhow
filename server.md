@@ -27,7 +27,8 @@ lshw -class network
 ### Find active internet connections
 netstat -tulpen
 
-<a name="#asdf" />
+<a name="asdf" />
+
 ### :: ZFS ::
 
 #### List all zfs-folders/zfs-volumes
