@@ -5,29 +5,29 @@
 
 ### :: Network ::
 
-#### List all network cards
+* List all network cards <br/>
 ``` lspci | egrep -i --color 'network|ethernet' ```
 
-#### Show all ip addresses
+* Show all ip addresses <br/>
 ``` ip addr show ```
 
-#### Show/manipulate network interfaces
+* Show/manipulate network interfaces <br/>
 ``` cat /etc/network/interfaces ```
 
-#### IPTABLES
+* IPTABLES <br/>
 ``` 
 iptables -S
 iptables -L 
 ```
 
-#### Get names of interfaces
+* Get names of interfaces <br/>
 ``` ip link ```
 
 #### XXX
 ``` lshw -class network ```
 
 
-### Find active internet connections
+* Find active internet connections <br/>
 ``` netstat -tulpen ```
 
 
@@ -43,10 +43,11 @@ iptables -L
 
 ### :: ZFS ::
 
-* List all zfs-folders/zfs-volumes
+* List all zfs-folders/zfs-volumes <br/>
 ``` zfs list ```
 
-zpool status
+* Status of zpool <br/>
+``` zpool status ```
 
 * ZFS Raid levels http://www.zfsbuild.com/2010/05/26/zfs-raid-levels/
 
