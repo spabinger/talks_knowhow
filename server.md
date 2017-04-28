@@ -102,7 +102,6 @@ if you see that the zpool is resilvering, then you are done.
 NOTE: resilvering can take long time, thats normal.
 Send the defect disk to the manufacturer
 go to website: https://westerndigital.secure.force.com/ind/ID_Login
-login with the user: albert.kriegner@platomics.com passwd: platomind_$01
 register the disks with their ID
 create a RMA with the defect disks
 click on "View RMA Premailer"
