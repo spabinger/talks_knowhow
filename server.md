@@ -49,10 +49,11 @@ iptables -L
 * Status of zpool <br/>
 ``` zpool status ```
 
-* ZFS Raid levels http://www.zfsbuild.com/2010/05/26/zfs-raid-levels/
+* ZFS Raid levels 
+``` http://www.zfsbuild.com/2010/05/26/zfs-raid-levels/ ```
 
 * Improve performance of ZFS
-https://icesquare.com/wordpress/how-to-improve-zfs-performance/#section9
+``` https://icesquare.com/wordpress/how-to-improve-zfs-performance/#section9 ```
 
 
 
