@@ -39,7 +39,7 @@ netstat -tulpen
 
 ### :: Docker
 
-#### Running containers
+**Running containers**
 ```
 docker ps -a
 ```
