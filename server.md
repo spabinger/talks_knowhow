@@ -6,7 +6,7 @@
 
 ### :: Update Server ::
 https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
-
+``` do-release-upgrade ```
 
 
 ### :: Network ::
