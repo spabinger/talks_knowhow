@@ -95,8 +95,9 @@ https://en.wikipedia.org/wiki/Dell_PowerConnect#5500_series
 **kvm** start:  `virsh start vm-name`
 
 ##### LXC
-LXC information
-http://www.cyberciti.biz/faq/howto-forcefully-stop-and-kill-lxc-container-on-linux/
+LXC information:
+* http://www.cyberciti.biz/faq/howto-forcefully-stop-and-kill-lxc-container-on-linux/
+* https://help.ubuntu.com/lts/serverguide/lxc.html
 
 **lxc** list: `lxc-ls -f` <br />
 **lxc** shutdown: `lxc-stop --name [container-name] --nokill` <br />
