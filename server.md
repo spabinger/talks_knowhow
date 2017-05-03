@@ -4,6 +4,11 @@
 [Docker](#docker) <br/>
 
 
+### :: Update Server ::
+https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
+
+
+
 ### :: Network ::
 
 * List all network cards <br/>
