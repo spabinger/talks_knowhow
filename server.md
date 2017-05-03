@@ -1,7 +1,10 @@
 ### :: TOC ::
-[ZFS](#zfs) <br/>
-[IPMI](#ipmi) <br/>
 [Docker](#docker) <br/>
+[IPMI](#ipmi) <br/>
+[LXC](#lxc) <br/>
+[ZFS](#zfs) <br/>
+
+
 
 
 ### :: Update Server ::
@@ -85,16 +88,16 @@ https://en.wikipedia.org/wiki/Dell_PowerConnect#5500_series
 
 
 
-## Virtualization
-
-##### KVM
+<a name="kvm" /> <br/>
+### :: KVM ::
 
 **kvm** list machines: `virsh list --all` <br />
 **kvm** shutdown: `virsh shutdown vm-name` <br />
 **kvm** shutdown: `connect to the machine via ssh and type "init 0"` <br />
 **kvm** start:  `virsh start vm-name`
 
-##### LXC
+<a name="lxc" /> <br/>
+### :: LXC ::
 LXC information:
 * http://www.cyberciti.biz/faq/howto-forcefully-stop-and-kill-lxc-container-on-linux/
 * https://help.ubuntu.com/lts/serverguide/lxc.html
