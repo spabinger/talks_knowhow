@@ -61,10 +61,10 @@ iptables -L
 ``` zpool export <zpoolname> ```
 
 * ZFS Raid levels <br/>
-``` http://www.zfsbuild.com/2010/05/26/zfs-raid-levels/ ```
+http://www.zfsbuild.com/2010/05/26/zfs-raid-levels/
 
 * Improve performance of ZFS <br/>
-``` https://icesquare.com/wordpress/how-to-improve-zfs-performance/#section9 ```
+https://icesquare.com/wordpress/how-to-improve-zfs-performance/#section9
 
 
 <a name="docker" /> <br/>
