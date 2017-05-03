@@ -57,6 +57,9 @@ iptables -L
 * Status of zpool <br/>
 ``` zpool status ```
 
+* Export zpool (unmount)<br/>
+``` zpool export <zpoolname> ```
+
 * ZFS Raid levels <br/>
 ``` http://www.zfsbuild.com/2010/05/26/zfs-raid-levels/ ```
 
@@ -105,7 +108,9 @@ LXC information:
 **lxc** list: `lxc-ls -f` <br />
 **lxc** shutdown: `lxc-stop --name [container-name] --nokill` <br />
 **lxc** start: `lxc-start --name [container-name] -d` <br />
-**lxc** reboot: `lxc-stop  --name [container-name] -r`
+**lxc** reboot: `lxc-stop --name [container-name] -r` <br />
+**lxc** attach: `lxc-attach -n [container-name] ` run command inside container
+
 
 
 
