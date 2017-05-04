@@ -75,6 +75,7 @@ https://icesquare.com/wordpress/how-to-improve-zfs-performance/
 
 * ZFS RAID level performance <br/>
 https://icesquare.com/wordpress/zfs-performance-mirror-vs-raidz-vs-raidz2-vs-raidz3-vs-striped/
+https://calomel.org/zfs_raid_speed_capacity.html
 
 
 <a name="docker" /> <br/>
