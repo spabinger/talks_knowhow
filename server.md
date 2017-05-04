@@ -47,6 +47,11 @@ https://help.ubuntu.com/community/IptablesHowTo
 #### Display block devices
 ``` blkid -o list ```
 
+#### Display all disks
+``` 
+parted
+print all
+```
 
 
 
