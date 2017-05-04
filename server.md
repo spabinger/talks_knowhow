@@ -77,6 +77,9 @@ https://icesquare.com/wordpress/how-to-improve-zfs-performance/
 https://icesquare.com/wordpress/zfs-performance-mirror-vs-raidz-vs-raidz2-vs-raidz3-vs-striped/
 https://calomel.org/zfs_raid_speed_capacity.html
 
+* More information on ZFS <br/>
+http://breden.org.uk/2009/05/10/home-fileserver-zfs-file-systems/
+
 
 <a name="docker" /> <br/>
 ### :: Docker ::
