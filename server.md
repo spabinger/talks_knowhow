@@ -66,7 +66,7 @@ https://help.ubuntu.com/community/IptablesHowTo
 http://www.zfsbuild.com/2010/05/26/zfs-raid-levels/
 
 * Improve performance of ZFS <br/>
-https://icesquare.com/wordpress/how-to-improve-zfs-performance/#section9
+https://icesquare.com/wordpress/how-to-improve-zfs-performance/
 
 * ZFS RAID level performance <br/>
 https://icesquare.com/wordpress/zfs-performance-mirror-vs-raidz-vs-raidz2-vs-raidz3-vs-striped/
