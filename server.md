@@ -44,10 +44,10 @@ https://help.ubuntu.com/community/IptablesHowTo
 
 ### :: Disks ::
 
-#### Display block devices
+* Display block devices <br/>
 ``` blkid -o list ```
 
-#### Display all disks
+* Display all disks <br/>
 ``` 
 parted
 print all
