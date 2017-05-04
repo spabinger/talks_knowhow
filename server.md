@@ -28,7 +28,7 @@ https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
 iptables -S
 iptables -L 
 ```
-* IPTABLES Links
+* IPTABLES Links <br/>
 https://help.ubuntu.com/community/IptablesHowTo
 
 * Get names of interfaces <br/>
@@ -67,6 +67,9 @@ http://www.zfsbuild.com/2010/05/26/zfs-raid-levels/
 
 * Improve performance of ZFS <br/>
 https://icesquare.com/wordpress/how-to-improve-zfs-performance/#section9
+
+* ZFS RAID level performance <br/>
+https://icesquare.com/wordpress/zfs-performance-mirror-vs-raidz-vs-raidz2-vs-raidz3-vs-striped/
 
 
 <a name="docker" /> <br/>
