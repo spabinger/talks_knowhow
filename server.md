@@ -23,6 +23,9 @@ https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
 * Show/manipulate network interfaces <br/>
 ``` cat /etc/network/interfaces ```
 
+* Check speed of network cards <br/>
+``` ethtool <eth0> ```
+
 * IPTABLES <br/>
 ``` 
 iptables -S
