@@ -37,6 +37,9 @@ https://help.ubuntu.com/community/IptablesHowTo
 * Get names of interfaces <br/>
 ``` ip link ```
 
+* Port forwarding
+``` /etc/rc.local ```
+
 #### XXX
 ``` lshw -class network ```
 
