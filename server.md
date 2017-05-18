@@ -154,6 +154,11 @@ LXC information:
 **lxc** attach: `lxc-attach -n [container-name] ` run command inside container
 
 
+### :: Services ::
+* List all running services <br />
+``` service --status-all ```
+
+
 
 SSH
 https://help.ubuntu.com/lts/serverguide/openssh-server.html
