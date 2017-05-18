@@ -45,13 +45,13 @@ https://help.ubuntu.com/community/IptablesHowTo
 * Portforwardings settings <br/>
 ``` Rules are set in /etc/rc.local ```
 
-* Portforwarding: show current setup
+* Portforwarding: show current setup <br/>
 ```iptables -t nat -v -L -n --line-number```
 
-* Portforwarding: set rule
+* Portforwarding: set rule <br/>
 ```iptables -t nat -A PREROUTING -i br0 -p tcp -m tcp --dport 10002 -m comment --comment "Elisa-LXC" -j DNAT --to-destination 10.0.3.228:22```
 
-* Portforwarding: Delete rule (use line number)
+* Portforwarding: Delete rule (use line number) <br/>
 https://www.cyberciti.biz/faq/how-to-iptables-delete-postrouting-rule/
 ``` iptables -t nat -D PREROUTING 3 ```
 
