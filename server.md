@@ -43,7 +43,7 @@ https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
 https://help.ubuntu.com/community/IptablesHowTo
 
 * Portforwardings settings <br/>
-Rules are set in /etc/rc.local
+``` Rules are set in /etc/rc.local ```
 
 * Portforwarding: show current setup
 ```iptables -t nat -v -L -n --line-number```
