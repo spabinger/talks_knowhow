@@ -91,6 +91,9 @@ print all
 * Export zpool (unmount)<br/>
 ``` zpool export <zpoolname> ```
 
+* Remove/destroy <br/>
+``` zpool destroy <zpoolname> ```
+
 * ZFS Raid levels <br/>
 http://www.zfsbuild.com/2010/05/26/zfs-raid-levels/
 
