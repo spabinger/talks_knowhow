@@ -33,6 +33,11 @@ https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
 * Port forwarding
 ``` /etc/rc.local ```
 
+* Virtual networks
+https://en.wikipedia.org/wiki/Virtual_network <br />
+
+
+
 <a name="iptables" /> <br/>
 #### IPTABLES
 * List IPTABLES <br/>
@@ -132,7 +137,7 @@ https://github.com/wsargent/docker-cheat-sheet
 -v         Bind a volume
 ```
 
-* Looks at all the info on a container (including IP address) <br/>
+* Look at all the info on a container (including IP address) <br/>
 ``` docker inspect ```
 
 * Delete a container <br/>
