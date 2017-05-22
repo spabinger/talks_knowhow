@@ -57,7 +57,9 @@ https://help.ubuntu.com/community/IptablesHowTo
 ```iptables -t nat -v -L -n --line-number```
 
 * Portforwarding: set rule <br/>
-```iptables -t nat -A PREROUTING -i br0 -p tcp -m tcp --dport 10002 -m comment --comment "Elisa-LXC" -j DNAT --to-destination 10.0.3.228:22```
+```iptables -t nat -A PREROUTING -i br0 -p tcp -m tcp --dport PORT -m comment --comment "COMMENT" -j DNAT --to-destination xxx.xxx.xxx.xxx:PORT``` <br />
+Example: <br />
+```iptables -t nat -A PREROUTING -i br0 -p tcp -m tcp --dport 10002 -m comment --comment "My-LXC" -j DNAT --to-destination 10.0.0.10:22``` <br />
 
 * Portforwarding: Delete rule (use line number) <br/>
 https://www.cyberciti.biz/faq/how-to-iptables-delete-postrouting-rule/ <br />
