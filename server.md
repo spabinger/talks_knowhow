@@ -193,7 +193,8 @@ https://help.ubuntu.com/lts/serverguide/lxc.html <br />
 run command inside container
 * Copy from one host to another <br />
 Simply copy the folder in /var/lib/lxc
-
+* LXC on ZFS: <br />
+https://www.scotte.org/2016/07/lxc-containers-on-zfs
 
 
 ### :: Services ::
