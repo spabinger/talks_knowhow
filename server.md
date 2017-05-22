@@ -175,15 +175,25 @@ https://en.wikipedia.org/wiki/Dell_PowerConnect#5500_series
 
 <a name="lxc" /> <br/>
 ### :: LXC ::
-LXC information:
-* http://www.cyberciti.biz/faq/howto-forcefully-stop-and-kill-lxc-container-on-linux/
-* https://help.ubuntu.com/lts/serverguide/lxc.html
 
-**lxc** list: `lxc-ls -f` <br />
-**lxc** shutdown: `lxc-stop --name [container-name] --nokill` <br />
-**lxc** start: `lxc-start --name [container-name] -d` <br />
-**lxc** reboot: `lxc-stop --name [container-name] -r` <br />
-**lxc** attach: `lxc-attach -n [container-name] ` run command inside container
+* LXC information: <br />
+http://www.cyberciti.biz/faq/howto-forcefully-stop-and-kill-lxc-container-on-linux/ <br />
+https://help.ubuntu.com/lts/serverguide/lxc.html <br />
+
+* List machines: <br/>
+`lxc-ls -f`
+* Shutdown: <br/>
+`lxc-stop --name [container-name] --nokill` <br />
+* Start: <br/>
+`lxc-start --name [container-name] -d` <br />
+* Reboot: <br/>
+`lxc-stop --name [container-name] -r` <br />
+* Attach: 
+`lxc-attach -n [container-name] ` <br />
+run command inside container
+* Copy from one host to another <br />
+Simply copy the folder in /var/lib/lxc
+
 
 
 ### :: Services ::
