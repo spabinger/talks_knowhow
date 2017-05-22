@@ -39,7 +39,7 @@ https://linuxconfig.org/configuring-virtual-network-interfaces-in-linux <br />
 
 * Reload an interface (e.g., after changing /etc/network/interfaces) <br />
 ``` sudo ifdown <interface> && sudo ifup <interface> ``` <br />
-``` sudo service network restart ```
+``` sudo service networking restart ```
 
 <a name="iptables" /> <br/>
 #### IPTABLES
