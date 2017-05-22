@@ -30,12 +30,15 @@ https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
 * Get names of interfaces <br/>
 ``` ip link ```
 
-* Port forwarding
+* Port forwarding <br />
 ``` /etc/rc.local ```
 
-* Virtual networks
+* Virtual networks <br />
 https://en.wikipedia.org/wiki/Virtual_network <br />
+https://linuxconfig.org/configuring-virtual-network-interfaces-in-linux <br />
 
+* Reload an interface (e.g., after changing /etc/network/interfaces) <br />
+``` sudo ifdown <interface> && sudo ifup <interface> ```
 
 
 <a name="iptables" /> <br/>
