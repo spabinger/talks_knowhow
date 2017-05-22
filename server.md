@@ -44,7 +44,7 @@ https://linuxconfig.org/configuring-virtual-network-interfaces-in-linux <br />
 <a name="iptables" /> <br/>
 #### IPTABLES
 * List IPTABLES <br/>
-``` iptables -S ```
+``` iptables -S ``` <br />
 ``` iptables -L ```
 
 * IPTABLES Links <br/>
@@ -60,7 +60,7 @@ https://help.ubuntu.com/community/IptablesHowTo
 ```iptables -t nat -A PREROUTING -i br0 -p tcp -m tcp --dport 10002 -m comment --comment "Elisa-LXC" -j DNAT --to-destination 10.0.3.228:22```
 
 * Portforwarding: Delete rule (use line number) <br/>
-https://www.cyberciti.biz/faq/how-to-iptables-delete-postrouting-rule/
+https://www.cyberciti.biz/faq/how-to-iptables-delete-postrouting-rule/ <br />
 ``` iptables -t nat -D PREROUTING 3 ```
 
 
