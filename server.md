@@ -197,6 +197,8 @@ run command inside container
 Simply copy the folder in /var/lib/lxc
 * LXC on ZFS: <br />
 https://www.scotte.org/2016/07/lxc-containers-on-zfs
+* Networking <br />
+http://containerops.org/2013/11/19/lxc-networking/
 
 
 ### :: Services ::
