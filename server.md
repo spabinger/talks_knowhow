@@ -120,6 +120,24 @@ https://github.com/wsargent/docker-cheat-sheet
 * List Running containers <br/>
 ``` docker ps -a ```
 
+ * Create image from Dockerfile <br/>
+ ``` docker build ```
+
+* Create and start a container in one operation <br/>
+``` docker run 
+-d         detach
+--name     Name of the container
+--restart  Automatically restart the container -  no, always
+-p         Ports
+-v         Bind a volume
+```
+
+* Looks at all the info on a container (including IP address) <br/>
+``` docker inspect ```
+
+* Delete a container <br/>
+``` docker rm ```
+
 
 
 <a name="ipmi" />
