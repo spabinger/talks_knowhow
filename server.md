@@ -203,8 +203,8 @@ http://containerops.org/2013/11/19/lxc-networking/
 https://stackoverflow.com/questions/23427129/how-do-i-backup-move-lxc-containers
 ```
 lxc-stop -n $NAME
-cd /var/lib/lxc/$NAME/
-tar --numeric-owner -czvf container_fs.tar.gz ./*
+cd /var/lib/lxc
+tar --numeric-owner -czvf container_fs.tar.gz $NAME
 rsync -avh container_fs.tar.gz user@newserver:/var/lib/lxc/
 ```
 
