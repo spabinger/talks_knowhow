@@ -200,6 +200,7 @@ https://www.scotte.org/2016/07/lxc-containers-on-zfs
 * Networking <br />
 http://containerops.org/2013/11/19/lxc-networking/
 * Backup <br />
+https://stackoverflow.com/questions/23427129/how-do-i-backup-move-lxc-containers
 ```
 lxc-stop -n $NAME
 cd /var/lib/lxc/$NAME/
