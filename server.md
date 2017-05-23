@@ -199,6 +199,13 @@ Simply copy the folder in /var/lib/lxc
 https://www.scotte.org/2016/07/lxc-containers-on-zfs
 * Networking <br />
 http://containerops.org/2013/11/19/lxc-networking/
+* Backup <br />
+```
+lxc-stop -n $NAME
+cd /var/lib/lxc/$NAME/
+tar --numeric-owner -czvf container_fs.tar.gz ./*
+rsync -avh container_fs.tar.gz user@newserver:/var/lib/lxc/
+```
 
 
 ### :: Services ::
@@ -213,29 +220,6 @@ https://help.ubuntu.com/lts/serverguide/openssh-server.html
 
 
 
-
-
-Exchange a defect harddisk
-Last edited by mücahit 5 months ago Page History
-Exchange the defect disk
-When you find out that a disk is defect, you should change it with a new one.
-After you changed it you must also replace the defect disk-id with the new disk-id in the zpool:
-you see the defect harddisk with the command:
-zpool status
-if there is a disk with the state UNAVAILABLE, that should be exchanged with a new disk
-to replace the defect disk-id you need this command:
-zpool replace tank [defect-disk-id] [new-disk-id]
-to see that its really replaced type in again:
-zpool status
-if you see that the zpool is resilvering, then you are done.
-NOTE: resilvering can take long time, thats normal.
-Send the defect disk to the manufacturer
-go to website: https://westerndigital.secure.force.com/ind/ID_Login
-register the disks with their ID
-create a RMA with the defect disks
-click on "View RMA Premailer"
-click on print, print it out and put it in and on the packet
-bring the packet to the mail
 
 
 
