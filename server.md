@@ -206,6 +206,7 @@ lxc-stop -n $NAME
 cd /var/lib/lxc
 tar --numeric-owner -czvf container_fs.tar.gz $NAME
 rsync -avh container_fs.tar.gz user@newserver:/var/lib/lxc/
+rsync -avPrh -e "ssh -p 10009" folder user@SERVER:/DEST/
 ```
 
 
