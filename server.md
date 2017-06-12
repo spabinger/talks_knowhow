@@ -85,6 +85,9 @@ parted
 print all
 ```
 
+* Display all SCSI disks <br/>
+```lsscsi -s```
+
 
 
 <a name="zfs" /> <br/>
