@@ -27,6 +27,12 @@ https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
 * Check speed / connection of network cards <br/>
 ``` ethtool <eth0> ```
 
+* Network class <br/>
+``` lshw -class network ```
+
+* Find active internet connections <br/>
+``` netstat -tulpen ```
+
 * Get names of interfaces <br/>
 ``` ip link ```
 
@@ -66,14 +72,6 @@ https://www.cyberciti.biz/faq/how-to-iptables-delete-postrouting-rule/ <br />
 ``` iptables -t nat -D PREROUTING 3 ```
 
 
-
-
-#### XXX
-``` lshw -class network ```
-
-
-* Find active internet connections <br/>
-``` netstat -tulpen ```
 
 
 ### :: Disks ::
