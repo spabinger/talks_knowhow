@@ -149,6 +149,15 @@ https://github.com/wsargent/docker-cheat-sheet
 * Delete a container <br/>
 ``` docker rm ```
 
+* Change port binding of existing container <br/>
+https://stackoverflow.com/questions/19335444/how-do-i-assign-a-port-mapping-to-an-existing-docker-container
+```
+1) stop the container 
+2) change the file /var/lib/docker/containers/[hash_of_the_container]/hostconfig.json
+3) restart your docker engine (to flush/clear config caches)
+4) start the container
+```
+
 
 
 <a name="ipmi" />
