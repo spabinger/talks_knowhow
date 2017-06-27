@@ -149,6 +149,9 @@ https://github.com/wsargent/docker-cheat-sheet
 * Delete a container <br/>
 ``` docker rm ```
 
+* Connect to docker <br/>
+```docker exec -it <containerIdOrName> bash```
+
 * Change port binding of existing container <br/>
 https://stackoverflow.com/questions/19335444/how-do-i-assign-a-port-mapping-to-an-existing-docker-container
 ```
