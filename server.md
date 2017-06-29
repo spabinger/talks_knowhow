@@ -106,6 +106,9 @@ print all
 * Remove/destroy <br/>
 ``` zpool destroy <zpoolname> ```
 
+* Show snapshots <br/>
+``` zfs list -t snapshot ```
+
 * ZFS Raid levels <br/>
 http://www.zfsbuild.com/2010/05/26/zfs-raid-levels/
 
