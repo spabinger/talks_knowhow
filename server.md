@@ -93,7 +93,6 @@ print all
 
 <a name="zfs" /> <br/>
 ### :: ZFS ::
-
 * List all zfs-folders/zfs-volumes <br/>
 ``` zfs list ```
 
@@ -125,6 +124,8 @@ http://serverascode.com/2014/07/03/add-ssd-cache-zfs.html
 * More information on ZFS <br/>
 http://breden.org.uk/2009/05/10/home-fileserver-zfs-file-systems/
 
+* Understanding the spaces used by ZFS <br/>
+https://blogs.oracle.com/observatory/understanding-the-space-used-by-zfs
 
 <a name="docker" /> <br/>
 ### :: Docker ::
