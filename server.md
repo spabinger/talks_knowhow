@@ -230,7 +230,7 @@ rsync -avPrh -e "ssh -p 10009" folder user@SERVER:/DEST/
 
 <a name="visudo" /> <br/>
 ### :: Visudo ::
-´´´sudo visudo´´´
+```sudo visudo```
 Be aware that adding a user to the *sudo* group overrides the entries in sudoers
 
 
