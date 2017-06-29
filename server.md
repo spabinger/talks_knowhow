@@ -3,6 +3,7 @@
 [IPMI](#ipmi) <br/>
 [IPTABLES](#iptables) <br/>
 [LXC](#lxc) <br/>
+[Visudo](#visudo) <br/>
 [ZFS](#zfs) <br/>
 
 
@@ -227,9 +228,13 @@ rsync -avPrh -e "ssh -p 10009" folder user@SERVER:/DEST/
 * List all running services <br />
 ``` service --status-all ```
 
+<a name="visudo" /> <br/>
+### :: Visudo ::
+´´´sudo visudo´´´
+Be aware that adding a user to the *sudo* group overrides the entries in sudoers
 
 
-SSH
+### :: SSH ::
 https://help.ubuntu.com/lts/serverguide/openssh-server.html
 
 
