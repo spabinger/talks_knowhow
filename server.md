@@ -92,6 +92,11 @@ print all
 
 
 <a name="zfs" /> <br/>
+* http://docs.oracle.com/cd/E19253-01/820-2313/6ndu3p9cf/index.html
+* http://docs.oracle.com/cd/E19253-01/820-2313/6ndu3p9cd/index.html
+* http://docs.oracle.com/cd/E19253-01/820-2313/gbiqe/index.html
+* http://docs.oracle.com/cd/E19253-01/819-5461/gbinw/
+
 ### :: ZFS ::
 * List all zfs-folders/zfs-volumes <br/>
 ``` zfs list ```
