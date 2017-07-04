@@ -23,6 +23,9 @@ https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
 * Show all ip addresses <br/>
 ``` ip addr show ```
 
+* Show interfaces and their name <br/>
+``` lshw -class network```
+
 * Show/manipulate network interfaces <br/>
 ``` cat /etc/network/interfaces ```
 
