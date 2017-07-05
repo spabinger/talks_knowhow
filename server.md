@@ -17,6 +17,9 @@ https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
 <a name="network" /> <br/>
 ### :: Network ::
 
+* Hints
+qwer
+
 * List all network cards <br/>
 ``` lspci | egrep -i --color 'network|ethernet' ```
 
