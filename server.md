@@ -18,7 +18,14 @@ https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
 ### :: Network ::
 
 * Hints
-qwer
+  * Do not mix ```ifconfig XX up``` with ```ifup XXX```
+  * If ```ifup``` is not working use ```--force```
+  * Handle ```service networking restart``` with care
+  * Do not specify 2 or more gateways on the same interface
+  * Shut down interfaces: ```sudo ip link set eth0 down```
+
+* Check state of interfaces
+```cat /run/network/ifstate```
 
 * List all network cards <br/>
 ``` lspci | egrep -i --color 'network|ethernet' ```
