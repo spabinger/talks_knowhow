@@ -56,6 +56,10 @@ https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
 * Port forwarding <br />
 ``` /etc/rc.local ```
 
+* Chaging DNS resolving <br/>
+  * ``` sudo nano /etc/resolvconf/resolv.conf.d/base ```
+  * ``` sudo resolvconf -u```
+
 * Virtual networks <br />
 https://en.wikipedia.org/wiki/Virtual_network <br />
 https://linuxconfig.org/configuring-virtual-network-interfaces-in-linux <br />
