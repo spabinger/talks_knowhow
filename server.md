@@ -24,6 +24,7 @@ https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
   * Do not specify 2 or more gateways on the same interface
   * Shut down interfaces: ```sudo ip link set eth0 down```
   * Remove virtual interface: ```ifconfig eth0:1 down```
+  * Good ifup, ifdown description: https://www.computerhope.com/unix/ifup.htm
 
 * Check state of interfaces
 ```cat /run/network/ifstate```
