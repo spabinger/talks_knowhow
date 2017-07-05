@@ -23,6 +23,7 @@ https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
   * Handle ```service networking restart``` with care
   * Do not specify 2 or more gateways on the same interface
   * Shut down interfaces: ```sudo ip link set eth0 down```
+  * Remove virtual interface: ```ifconfig eth0:1 down```
 
 * Check state of interfaces
 ```cat /run/network/ifstate```
