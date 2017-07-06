@@ -53,6 +53,9 @@ https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
 * Get names of interfaces <br/>
 ``` ip link ```
 
+* Services listening on port <br/>
+``` lsof -nPi tcp:the-port ```
+
 * Port forwarding <br />
 ``` /etc/rc.local ```
 
