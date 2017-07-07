@@ -59,6 +59,10 @@ https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
 * Port forwarding <br />
 ``` /etc/rc.local ```
 
+* Login problems via SSH <br/>
+Getting a ```pam_systemd(sshd:session): Failed to stat runtime dir: No such file or directory``` message:
+Added directory with user_id in ```/run/users/```
+
 * Chaging DNS resolving <br/>
   * ``` sudo nano /etc/resolvconf/resolv.conf.d/base ```
   * ``` sudo resolvconf -u```
