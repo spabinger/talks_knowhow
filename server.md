@@ -147,6 +147,9 @@ print all
 * Show snapshots <br/>
 ``` zfs list -t snapshot ```
 
+* Show iostats <br/>
+``` zpool iostat 2 ```
+
 * ZFS Raid levels <br/>
 http://www.zfsbuild.com/2010/05/26/zfs-raid-levels/
 
