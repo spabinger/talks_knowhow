@@ -59,6 +59,13 @@ https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
 * Port forwarding <br />
 ``` /etc/rc.local ```
 
+* Check speed between two servers <br/>
+  * ```sudo apt-get install iperf```
+  * We'll start an iperf server on one of the machines: <br/>
+  ```iperf -s```
+  * And then on the other computer, tell iperf to connect as a client:<br/>
+  ```iperf -c <address of other computer>```
+
 * Login problems via SSH <br/>
 Getting a ```pam_systemd(sshd:session): Failed to stat runtime dir: No such file or directory``` message:
 Added directory with user_id in ```/run/users/```
