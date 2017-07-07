@@ -283,7 +283,10 @@ Be aware that adding a user to the *sudo* group overrides the entries in sudoers
 ### :: SSH ::
 https://help.ubuntu.com/lts/serverguide/openssh-server.html
 
+### :: RSYNC ::
 
+* Use only limited bandwith:<br/>
+``` rsync --bwlimit=<kb/second> <source> <dest> ```
 
 
 
