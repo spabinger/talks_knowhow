@@ -182,7 +182,8 @@ https://github.com/wsargent/docker-cheat-sheet
  ``` docker build ```
 
 * Create and start a container in one operation <br/>
-``` docker run 
+``` 
+docker run 
 -d         detach
 --name     Name of the container
 --restart  Automatically restart the container -  no, always
