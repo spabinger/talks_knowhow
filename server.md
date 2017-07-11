@@ -189,6 +189,10 @@ https://github.com/wsargent/docker-cheat-sheet
 -p         Ports
 -v         Bind a volume
 ```
+creates and starts a container
+
+* Docker start <br/>
+starts a container
 
 * Look at all the info on a container (including IP address) <br/>
 ``` docker inspect ```
