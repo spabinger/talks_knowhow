@@ -288,6 +288,10 @@ Be aware that adding a user to the *sudo* group overrides the entries in sudoers
 ### :: SSH ::
 https://help.ubuntu.com/lts/serverguide/openssh-server.html
 
+### :: Resources ::
+* Memory <br/>
+http://www.linuxatemyram.com/
+
 ### :: RSYNC ::
 
 * Use only limited bandwith:<br/>
