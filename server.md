@@ -149,6 +149,8 @@ print all
 
 * Show iostats <br/>
 ``` zpool iostat 2 ```
+* Show detailed io <br/>
+``` sudo zpool iostat -v <pool> ```
 
 * Send a ZFS snapshot <br/>
 ``` zfs send -v storage/xxx@29062017 | pv -B 1g | ssh xxx.xxx.xxx.xxx zfs receive storage/xxx ```
