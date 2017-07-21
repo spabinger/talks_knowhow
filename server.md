@@ -150,6 +150,9 @@ print all
 * Show iostats <br/>
 ``` zpool iostat 2 ```
 
+* Send a ZFS snapshot <br/>
+``` zfs send -v storage/xxx@29062017 | pv -B 1g | ssh xxx.xxx.xxx.xxx zfs receive storage/xxx ```
+
 * ZFS Raid levels <br/>
 http://www.zfsbuild.com/2010/05/26/zfs-raid-levels/
 
