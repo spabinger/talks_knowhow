@@ -209,6 +209,15 @@ starts a container
 * Connect to docker <br/>
 ```docker exec -it <containerIdOrName> bash```
 
+* Problem loading packages during docker build <br/>
+https://stackoverflow.com/questions/42064246/failed-to-establish-a-new-connection-errno-2-name-or-service-not-known
+```
+sudo nano /lib/systemd/system/docker.service Add the dns after ExecStar. --dns 10.252.252.252 --dns 10.253.253.253 Should look like that: ExecStart=/usr/bin/dockerd -H fd:// --dns 10.252.252.252 --dns 10.253.253.253
+
+systemctl daemon-reload
+sudo service docker restart
+```
+
 * Change port binding of existing container <br/>
 https://stackoverflow.com/questions/19335444/how-do-i-assign-a-port-mapping-to-an-existing-docker-container
 ```
