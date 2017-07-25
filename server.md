@@ -147,8 +147,16 @@ print all
 * Show snapshots <br/>
 ``` zfs list -t snapshot ```
 
+* Volumes <br>
+```
+zfs list -t volumes
+Volumes are listed here: /dev/zvol/tank/
+
+```
+
 * Show iostats <br/>
 ``` zpool iostat 2 ```
+
 * Show detailed io <br/>
 ``` sudo zpool iostat -v <pool> ```
 
