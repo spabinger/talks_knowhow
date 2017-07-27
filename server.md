@@ -295,6 +295,9 @@ tar --numeric-owner -czvf container_fs.tar.gz $NAME
 rsync -avh container_fs.tar.gz user@newserver:/var/lib/lxc/
 rsync -avPrh -e "ssh -p 10009" folder user@SERVER:/DEST/
 ```
+* How to set DHCP with IPs <br />
+https://serverfault.com/questions/697143/how-to-set-dhcp-ips-of-stanard-lxc-containers
+
 
 
 ### :: Services ::
