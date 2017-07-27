@@ -286,6 +286,10 @@ Simply copy the folder in /var/lib/lxc
 https://www.scotte.org/2016/07/lxc-containers-on-zfs
 * Networking <br />
 http://containerops.org/2013/11/19/lxc-networking/
+* Network config <br/>
+To make LXC respect the network config set ```iface eth0 inet manual``` <br/>
+https://serverfault.com/questions/571714/setting-up-bridged-lxc-containers-with-static-ips
+
 * Backup <br />
 https://stackoverflow.com/questions/23427129/how-do-i-backup-move-lxc-containers
 ```
@@ -295,8 +299,6 @@ tar --numeric-owner -czvf container_fs.tar.gz $NAME
 rsync -avh container_fs.tar.gz user@newserver:/var/lib/lxc/
 rsync -avPrh -e "ssh -p 10009" folder user@SERVER:/DEST/
 ```
-* How to set DHCP with IPs <br />
-https://serverfault.com/questions/697143/how-to-set-dhcp-ips-of-stanard-lxc-containers
 
 
 
