@@ -336,69 +336,71 @@ http://www.binarytides.com/linux-find-command-examples/
 
 ### :: Useful information ::
 
-1) Move to the previous directory
-We all use cd .. to move to move to an upper directory. You can also use cd - to move to the previous directory - just like a back button. 
+1) **Move to the previous directory** - We all use ```cd ..``` to move to move to an upper directory. You can also use ```cd -``` to move to the previous directory - just like a back button. 
 ```
 test@linoxide:~/Downloads$ cd -
  /home/xy
 test@linoxide:~$ cd -
  /home/xy/Downloads
 ```
-2) Repeat your last command - to replay as the previous command, just type ```!!```
-```$ apt install vlc
+2) **Repeat your last command** - To replay as the previous command, just type ```!!```
+```
+$ apt install vlc
  E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
 $ sudo !!
  sudo apt install vlc
 ```
-3) Keep executing a command until it succeeds
-To keep executing a command until it finally succeeds, use the exit code of the command directly: while ! [command]; do sleep 1; done
+3) **Keep executing a command until it succeeds** - use the exit code of the command directly. The command kept running until it found run.sh and printed out its content.
 ```
 $ while ! ./run.sh; do sleep 1; done
 cat: run.sh: No such file or directory
 linoxide.com
 ```
-The command kept running until it found run.sh and printed out its content.
-4) View progress of file transfers
-In Linux, you cannot really know the rate of a file transfer progress until it's done. Using the pv command, you can monitor the progress of file transfers.
+4) **View progress of file transfers**
+In Linux, you cannot really know the rate of a file transfer progress until it's done. Using the ```pv``` command, you can monitor the progress of file transfers.
 ```
 $ pv access.log | gzip > access.log.gz
  611MB 0:00:11 [58.3MB/s] [=> ] 15% ETA 0:00:59
 ```
-5) Easily schedule events
+5) **Easily schedule events**
 Using the at command, you can easily schedule events at anytime.
 ```
 echo wget https://sample.site/test.mp4 | at 2:00 PM
 To view the queued jobs, type 
 atq
 ```
-6) Display at output as a table
-When you use the ls command or other commands to throw outputs, they are often very long and need scrolling. You can easily display all the outputs in a table form using the column -t command. In this example, we used the command
+6) **Display at output as a table**
+When you use the ```ls``` command or other commands to throw outputs, they are often very long and need scrolling. You can easily display all the outputs in a table form using the ```column -t``` command.
 ```
 $ cat /etc/passwd | column -t
 ```
-7) Keyboard Tricks
-  * The clear command clears the terminal screen with a blank one. Pressing Ctrl + L on your keyboard does the same thing, but faster.
-  * To go through previous commands, press Alt + . .
+7) **Keyboard Tricks**
+  * The clear command clears the terminal screen with a blank one. Pressing ```Ctrl + L``` on your keyboard does the same thing, but faster.
+  * To go through previous commands, press ```Alt + . .```
   * ```Ctrl + U``` clears the content you've typed already. Try this when you want to clear the password field in the command line.
   * To reverse search your command history, press ```Ctrl + R```
-8) Compress, split and encrypt  files
-Trying to transfer large files across computers is a tedious task. We can easily do this by compressing the files and creating a multi-part archive if the files are extremely large. To encrypt, we add the -e switch.
+8) **Compress, split and encrypt files**
+Trying to transfer large files across computers is a tedious task. We can easily do this by compressing the files and creating a multi-part archive if the files are extremely large. To encrypt, we add the ```-e``` switch.
+```
 $ zip -re test.zip AdbeRdr11010_en_US.exe run.sh Smart_Switch_pc_setup.exe
  Enter password:
  Verify password:
  adding: AdbeRdr11010_en_US.exe (deflated 0%)
  adding: run.sh (stored 0%)
  adding: Smart_Switch_pc_setup.exe (deflated 2%)
-9) Stress test your battery
-Do you want to check how long your battery can last under 100% CPU usage? Try this command:
+```
+9) **Stress test your battery** - Try this command:
+```
 $ cat /dev/urandom > /dev/null
-10) Renaming/moving files with suffixes
-If you want to quickly rename or move a bunch of files with suffix, try this command.
+```
+10) **Renaming/moving files with suffixes** - If you want to quickly rename or move a bunch of files with suffix, try this command.
+```
 $ cp /home/sample.txt{,-old}
 This will translate to:
 $ cp /home/sample.txt /home/sample.txt-old
 To rename files of a particular extension in batch, try this:
 $ rename 's/comes_here_/goes_there/' *.txt
+```
 
 
 
