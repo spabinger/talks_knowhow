@@ -4,6 +4,7 @@
 [IPTABLES](#iptables) <br/>
 [LXC](#lxc) <br/>
 [Network](#network) <br/>
+[Resources/Misc](#resources_misc) <br/>
 [Visudo](#visudo) <br/>
 [ZFS](#zfs) <br/>
 
@@ -315,12 +316,16 @@ Be aware that adding a user to the *sudo* group overrides the entries in sudoers
 ### :: SSH ::
 https://help.ubuntu.com/lts/serverguide/openssh-server.html
 
-### :: Resources ::
+<a name="resources_misc" /> <br/>
+### :: Resources / Misc ::
 * Memory <br/>
 http://www.linuxatemyram.com/
 
 * Htop <br/>
 https://github.com/brentp/450k-analysis-guide
+
+* Find <br/>
+http://www.binarytides.com/linux-find-command-examples/
 
 ### :: RSYNC ::
 
@@ -329,49 +334,53 @@ https://github.com/brentp/450k-analysis-guide
 
 
 
-
+### :: Useful information ::
 
 1) Move to the previous directory
-We all use cd .. to move to move to an upper directory. You can also use cd - to move to the previous directory - just like a back button.
+We all use cd .. to move to move to an upper directory. You can also use cd - to move to the previous directory - just like a back button. 
+```
 test@linoxide:~/Downloads$ cd -
-
- /home/eyramm
-
+ /home/xy
 test@linoxide:~$ cd -
-
- /home/eyramm/Downloads
-
-test@linoxide:~/Downloads$
-In this example, we were in the Downloads directory, and then moved back to the Home …
-2) Repeat your last command
-To replay as the previous command, just type !!. 
-$ apt install vlc
+ /home/xy/Downloads
+```
+2) Repeat your last command - to replay as the previous command, just type ```!!```
+```$ apt install vlc
  E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
 $ sudo !!
  sudo apt install vlc
-
+```
 3) Keep executing a command until it succeeds
 To keep executing a command until it finally succeeds, use the exit code of the command directly: while ! [command]; do sleep 1; done
+```
 $ while ! ./run.sh; do sleep 1; done
 cat: run.sh: No such file or directory
 linoxide.com
+```
 The command kept running until it found run.sh and printed out its content.
 4) View progress of file transfers
 In Linux, you cannot really know the rate of a file transfer progress until it's done. Using the pv command, you can monitor the progress of file transfers.
+```
 $ pv access.log | gzip > access.log.gz
  611MB 0:00:11 [58.3MB/s] [=> ] 15% ETA 0:00:59
+```
 5) Easily schedule events
 Using the at command, you can easily schedule events at anytime.
+```
 echo wget https://sample.site/test.mp4 | at 2:00 PM
-To view the queued jobs, type atq.
+To view the queued jobs, type 
+atq
+```
 6) Display at output as a table
 When you use the ls command or other commands to throw outputs, they are often very long and need scrolling. You can easily display all the outputs in a table form using the column -t command. In this example, we used the command
+```
 $ cat /etc/passwd | column -t
+```
 7) Keyboard Tricks
-The clear command clears the terminal screen with a blank one. Pressing Ctrl + L on your keyboard does the same thing, but faster.
-To go through previous commands, press Alt + . .
-Ctrl + U clears the content you've typed already. Try this when you want to clear the password field in the command line.
-To reverse search your command history, press Ctrl + R
+  * The clear command clears the terminal screen with a blank one. Pressing Ctrl + L on your keyboard does the same thing, but faster.
+  * To go through previous commands, press Alt + . .
+  * ```Ctrl + U``` clears the content you've typed already. Try this when you want to clear the password field in the command line.
+  * To reverse search your command history, press ```Ctrl + R```
 8) Compress, split and encrypt  files
 Trying to transfer large files across computers is a tedious task. We can easily do this by compressing the files and creating a multi-part archive if the files are extremely large. To encrypt, we add the -e switch.
 $ zip -re test.zip AdbeRdr11010_en_US.exe run.sh Smart_Switch_pc_setup.exe
