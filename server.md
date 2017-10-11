@@ -236,6 +236,13 @@ https://stackoverflow.com/questions/19335444/how-do-i-assign-a-port-mapping-to-a
 4) start the container
 ```
 
+* Problem restarting with network issue
+```
+docker network ls
+docker network disconnect -f <networkname>
+docker network rm <networkname>
+```
+https://github.com/moby/moby/issues/20398
 
 
 <a name="ipmi" />
