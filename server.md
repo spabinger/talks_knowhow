@@ -57,6 +57,9 @@ https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
 * Services listening on port <br/>
 ``` lsof -nPi tcp:the-port ```
 
+* Monitor traffic <br/>
+``` nethogs <interface>```
+
 * Port forwarding <br />
 ``` /etc/rc.local ```
 
