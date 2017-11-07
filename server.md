@@ -27,7 +27,14 @@ https://help.ubuntu.com/lts/serverguide/installing-upgrading.html
   * Remove virtual interface: ```ifconfig eth0:1 down```
   * Good ifup, ifdown description: https://www.computerhope.com/unix/ifup.htm
 
-* Check state of interfaces
+* NAT
+  * Introduction: http://www.the-art-of-web.com/system/iptables-nat/
+  * Introduction2: https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Security_Guide/s1-firewall-ipt-fwd.html
+  * Masquerade: ```POSTROUTING allows packets to be altered as they are leaving the firewall's external device. The -j MASQUERADE target is specified to mask the private IP address of a node with the external IP address of the firewall/gateway.```
+  
+
+
+* Check state of interfaces <br/>
 ```cat /run/network/ifstate```
 
 * List all network cards <br/>
@@ -300,6 +307,8 @@ http://containerops.org/2013/11/19/lxc-networking/
 * Network config <br/>
 To make LXC respect the network config set ```iface eth0 inet manual``` <br/>
 https://serverfault.com/questions/571714/setting-up-bridged-lxc-containers-with-static-ips
+
+* Port forwarding LXC: https://wiki.debian.org/LXC/MasqueradedBridge
 
 * Backup <br />
 https://stackoverflow.com/questions/23427129/how-do-i-backup-move-lxc-containers
